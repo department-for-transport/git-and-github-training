@@ -1,0 +1,10 @@
+# Ensure you have not committed any secrets:
+# e.g passwords, API keys, data files or OFFSEN outputs.
+
+# Make sure you include a clear commit message, 
+# including the reason for any change
+
+# Once you have completed your message, use CTRL+X to exit
+# Then press Y and enter to save the message
+
+# Write your git commit message below this line:
