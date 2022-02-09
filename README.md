@@ -1,10 +1,10 @@
-# DfT Analyst R repository template
+# Git and GitHub Training Repository
 
-This is a template git repository for use by DfT analysts in R. It aims to standardise issue reporting and pull requests, as well as minimising the risk of accidentally pushing secure data.
+This is a GitHub repository designed for beginner training in Git and GitHub for colleagues in DfT.
 
 ## To use 
 
-To use this template, click on the green button "use template" at the top of this repository. This will allow you to set up a repository as normal, using the structure and features of this repo.
+To clone this repository into your own Git, please select the green "code" button and ensure you have selected the SSH code. You may then clone this repo as normal.
 
 ## Features
 
@@ -16,13 +16,6 @@ The repository contains two issue templates which are loaded automatically; one 
 
 The repository contains a pull request template which loads automatically. This standardised form to complete ensures you are appropriately reviewing pull requests and provides a QA record of code changes.
 
-### Commit template
-
-The repository contains a git commit template. This does not load automatically, and must be requested in your R terminal by running
-
-`git config commit.template .gitmessage`
-
-This provides a template for good git messages, and also reminds users not to commit to Github any secrets or data.
 
 ### Gitignore
 
