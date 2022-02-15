@@ -39,7 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 ##Data and output folders
-Data/
+Data/*
 Outputs/
 
 # Common data filetypes
@@ -47,4 +47,7 @@ Outputs/
 *.xls
 *.csv
 *.ods
+*.png
 .Rproj.user
+
+!*/lookup_table.csv
