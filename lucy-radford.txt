@@ -3,3 +3,5 @@ git hub training test file line 1
 git hub training test file line 2
 
 git hub training test file line 3
+
+Hi Lucy! This is Maria :)
