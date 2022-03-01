@@ -1,1 +1,3 @@
 This is a random text file. You can add and remove things to it to test how git works.
+
+I'm making changes to show how you can changes files on GitHub
