@@ -1,5 +1,10 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
-I am adding some additional text.
+I am adding a line of text to force a git merge issue later on.
 
-make another change
+I am adding another line to show the git bash stuff again
+
+daidunweqoiruweorueocne
+
+
+
