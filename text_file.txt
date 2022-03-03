@@ -1,1 +1,4 @@
 This is a random text file. You can add and remove things to it to test how git works.
+
+
+adding extra text to force a merge conflict
