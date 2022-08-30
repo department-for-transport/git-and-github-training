@@ -1,5 +1,7 @@
 library(RDCOMClient)
 
+##New comment
+
 ##Set up Outlook application
 outlook_app <- COMCreate("Outlook.Application")
 
