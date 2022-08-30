@@ -1,5 +1,8 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
-Editing text in the text file
+
 
 another change remembering to label the commit
+
+New line for this text file -matthew herbert1
+
