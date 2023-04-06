@@ -1,1 +1,7 @@
 This is a random text file. You can add and remove things to it to test how git works.
+
+I am adding text
+
+You shouldn't really do this
+
+Only make code changes locally, and then push up
