@@ -1,3 +1,4 @@
+##Hi Linda I'm using git
 library(RDCOMClient)
 
 ##Set up Outlook application
