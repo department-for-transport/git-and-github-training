@@ -1,4 +1,4 @@
-
+## This is a comment
 ##Format dates nicely
 date_formatter <- function(dates, abbr_day = TRUE, abbr_month = TRUE, include_year = FALSE){
   dayy <- lubridate::day(dates)

@@ -1,1 +1,6 @@
 This is a random text file. You can add and remove things to it to test how git works.
+I like text.
+I like Github.
+This is some new content.
+
+Make it easy to git add
