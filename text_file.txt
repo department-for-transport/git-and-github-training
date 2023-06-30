@@ -7,3 +7,6 @@ I'm on the GitHub training 30/06/23.
 
 I'm running the Github training.
 >>>>>>> 12444d42ebb496e237a46d962d6cc23069e0ef76
+
+yup
+
