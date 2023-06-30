@@ -1,2 +1,2 @@
 This is a random text file. You can add and remove things to it to test how git works.
-I'm on the GitHub training.
+I'm on the GitHub training 30/06/23.
