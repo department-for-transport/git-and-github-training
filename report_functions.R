@@ -11,9 +11,7 @@ date_formatter <- function(dates, abbr_day = TRUE, abbr_month = TRUE, include_ye
   if(include_year == FALSE){
     paste0(lubridate::wday(dates, label = TRUE, abbr = abbr_day), " ", dayy, suff, " ", lubridate::month(dates, label = TRUE, abbr = abbr_month))
   }
-  else(
-    paste0(lubridate::wday(dates, label = TRUE, abbr = abbr_day), " ", dayy, suff, " ", lubridate::month(dates, label = TRUE, abbr = abbr_month), " ", lubridate::year(dates))
-  )
+
 }
 
 ##Function to find a value that is neither the max nor the min
@@ -70,16 +68,6 @@ hour_format <- function(x){
   paste(hour, mins, sep = ":")
 }
 
-#Find most recent percentage value
-current_percent <- function(transport_mode){
-  
-  data <- all_data %>%
-    dplyr::filter(transport_type == transport_mode) %>%
-    dplyr::filter(date == max(date, na.rm = TRUE))
-  
-  scales::percent(data$dash_value)
-  
-}
 
 #Find most recent percentage value
 comparison_percent <- function(transport_mode, days_diff = 7){

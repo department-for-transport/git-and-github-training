@@ -3,6 +3,7 @@
 #Set up a function to neatly read the file in
 read_release <- function(){
   #Read all HTML
+  
   pg <- read_html("https://www.ons.gov.uk/peoplepopulationandcommunity/")
  
   ##Keep the text content only
