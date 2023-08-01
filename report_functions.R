@@ -38,6 +38,12 @@ hourly_diff <- function(data, hour_1, hour_2){
                   .(count = sum(count, na.rm = TRUE)),
                     by = list(date)]
   
+  ##Find change from last week to this week
+  change <- round(
+    (
+      (compare[date == mx, count]/compare[date == md, count]) - 1) 
+    * 100)
+  
   #~Format as percentage with positive or negative sign
   if(hour_1 == 00 & hour_2 == 24){
     paste0("(", sprintf("%+2g%%", change),")")
@@ -173,7 +179,7 @@ date_cycling <- function(format = "full_month"){
   if(format == "full_month"){
     
     paste0(date_formatter(min(data$date, na.rm = TRUE), abbr_day = FALSE, abbr_month = FALSE), " and ", date_formatter(max(data$date, na.rm = TRUE), abbr_day = FALSE, abbr_month = FALSE))
-  }else{
+  } else{
     paste0(date_formatter(min(data$date, na.rm = TRUE)), " - ", date_formatter(max(data$date, na.rm = TRUE)))
     
   }
