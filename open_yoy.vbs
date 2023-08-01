@@ -3,3 +3,5 @@ Set objWorkbook = objExcel.Workbooks.Open("G:\AFP\IHACAll\IHAC\015 DDU\005 Covid
 objExcel.Calculate
 
 objWorkbook.Close True 
+
+\\Comment here
