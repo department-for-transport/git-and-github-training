@@ -11,9 +11,7 @@ date_formatter <- function(dates, abbr_day = TRUE, abbr_month = TRUE, include_ye
   if(include_year == FALSE){
     paste0(lubridate::wday(dates, label = TRUE, abbr = abbr_day), " ", dayy, suff, " ", lubridate::month(dates, label = TRUE, abbr = abbr_month))
   }
-  else(
-    paste0(lubridate::wday(dates, label = TRUE, abbr = abbr_day), " ", dayy, suff, " ", lubridate::month(dates, label = TRUE, abbr = abbr_month), " ", lubridate::year(dates))
-  )
+
 }
 
 ##Function to find a value that is neither the max nor the min
@@ -40,22 +38,13 @@ hourly_diff <- function(data, hour_1, hour_2){
                   .(count = sum(count, na.rm = TRUE)),
                     by = list(date)]
   
+
   ##Find change from last week to this week
   change <- round(
     (
       (compare[date == mx, count]/compare[date == md, count]) - 1) 
     * 100)
   
-  #~Format as percentage with positive or negative sign
-  if(hour_1 == 00 & hour_2 == 24){
-    paste0("(", sprintf("%+2g%%", change),")")
-  }
-  else if(hour_2 == 24){
-    paste0("from ", hour_format(hour_1), " onwards "," (", sprintf("%+2g%%", change),")")
-  }else{
-  paste0("between ", hour_format(hour_1), " - ", hour_format(hour_2), " (", sprintf("%+2g%%", change),")")
-  }
-}
 
 ##Format the hours into times
 hour_format <- function(x){
@@ -70,16 +59,6 @@ hour_format <- function(x){
   paste(hour, mins, sep = ":")
 }
 
-#Find most recent percentage value
-current_percent <- function(transport_mode){
-  
-  data <- all_data %>%
-    dplyr::filter(transport_type == transport_mode) %>%
-    dplyr::filter(date == max(date, na.rm = TRUE))
-  
-  scales::percent(data$dash_value)
-  
-}
 
 #Find most recent percentage value
 comparison_percent <- function(transport_mode, days_diff = 7){
