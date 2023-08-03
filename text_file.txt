@@ -1,2 +1,4 @@
 This is a random text file. You can add and remove things to it to test how git works.
 This is a test
+
+i am adding some more tex to this file
