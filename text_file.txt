@@ -5,3 +5,5 @@ Hi Kieran it's Lawrence.
 =======
 This is Ethan, making changes.
 >>>>>>> b32b8aa28885be517f9ecb59e4648020b37174b3
+
+Change 2
