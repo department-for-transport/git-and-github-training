@@ -1,1 +1,4 @@
 This is a random text file. You can add and remove things to it to test how git works.
+This is Sophie
+It is sunny today
+It was cloudy yesterday
