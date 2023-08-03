@@ -1,3 +1,7 @@
 This is a random text file. You can add and remove things to it to test how git works.
+<<<<<<< HEAD
 
 Hi Kieran it's Lawrence.
+=======
+This is Ethan, making changes.
+>>>>>>> b32b8aa28885be517f9ecb59e4648020b37174b3
