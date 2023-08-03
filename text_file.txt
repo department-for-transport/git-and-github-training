@@ -2,4 +2,7 @@ This is a random text file. You can add and remove things to it to test how git 
 Change123
 test2
 
+
 Hi Lawrence. Mike B
+
+testing 3 new changes
