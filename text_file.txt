@@ -3,3 +3,4 @@ This is a random text file. You can add and remove things to it to test how git 
 I am adding important code.
 I am training people today.
 More text here
+Added a 6th line
