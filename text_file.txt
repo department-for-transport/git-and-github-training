@@ -1,1 +1,6 @@
 This is a random text file. You can add and remove things to it to test how git works.
+
+I am running Github training today
+It is lots of fun and everyone is enjoying it.
+
+These are some more lines
