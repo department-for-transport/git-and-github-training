@@ -1,5 +1,10 @@
 git branchThis is a random text file. You can add and remove things to it to test how git works.
 test test
+<<<<<<< HEAD
 
 
 ALL YOUR TEXT ARE BELONG TO US
+=======
+Adding to Paul's file
+testing
+>>>>>>> c1e5a70f92e42fd84b4973e7df18bb79ccf5dfd3
