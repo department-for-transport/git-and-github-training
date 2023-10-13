@@ -22,10 +22,10 @@ read_release <- function(){
 read_dates <- function(){
 
   #Read all HTML
-  pg <- read_html("https://www.ons.gov.uk/peoplepopulationandcommunity/")
+  p <- read_html("https://www.ons.gov.uk/peoplepopulationandcommunity/")
   
   ##Keep the text content only
-  text_only <- html_text(html_nodes(pg,'p'))
+  text_only <- html_text(html_nodes(p,'p'))
   
   ##Search for release date and next release, and bind into a list
   dates <- list(text_only[grepl("Release date", text_only)],
