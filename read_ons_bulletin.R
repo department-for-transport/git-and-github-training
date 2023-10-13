@@ -17,7 +17,7 @@ read_release <- function(){
 }
 
 ##Get latest ONS HTML release------------------------------------------------
-
+#This produces a list
 #Set up a function to neatly read the file in
 read_dates <- function(){
 
