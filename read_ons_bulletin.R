@@ -12,7 +12,7 @@ read_release <- function(){
   text_only <- text_only[grepl("sample size|sampled", text_only)]
 
   ##Return as a list of sentences
-  strsplit(text_only, "[.]")[[1]]
+  strsplit(text_only, "[.]")[[3]]
   
 }
 
