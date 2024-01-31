@@ -21,8 +21,8 @@ mid <- function(data){
   #Keep only unique values
   data <- unique(data)
   
-  #Find min and max
-  mx <- max(data)
+  #Find mean and max
+  mean_x <- mean (data)
   mn <- min(data)
   
   data[!data %in% c(mn, mx)]

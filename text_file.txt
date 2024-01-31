@@ -3,3 +3,8 @@ This is a random text file. You can add and remove things to it to test how git 
 
 This is some text.
 This is some other text.
+
+This is an change ot teh test
+mary had a little lamb
+which was very tasty
+with horseradish sauce and potatoes
