@@ -7,4 +7,4 @@ This is some other text.
 This is an change ot teh test
 mary had a little lamb
 which was very tasty
-with horseradish sauce and potatoes
+with potatoes
