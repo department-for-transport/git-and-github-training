@@ -5,3 +5,5 @@ This is some text.
 This is some other text.
 
 And I am called Jamie
+
+Hello Jamie, this is Lonjezo. I am making this change, have a lovely day.
