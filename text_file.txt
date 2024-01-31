@@ -1,5 +1,8 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
 
-This is some text.
+T
 This is some other text.
+
+Lonjezo added this text
+He also removed the text on line 4.
