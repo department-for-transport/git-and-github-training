@@ -3,3 +3,6 @@ This is a random text file. You can add and remove things to it to test how git 
 
 This is some text.
 This is some other text.
+
+Hey, Emma is making a change this file.
+Let's see if it works!
