@@ -6,3 +6,6 @@ This is some other text.
 
 Hey, Emma is making a change this file.
 Let's see if it works!
+
+
+Hey, Emma - it does work! :)
