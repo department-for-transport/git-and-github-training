@@ -7,3 +7,5 @@ This is some other text.
 This is Sean's Big Change
 
 The Secret of Monkey Island is...?
+
+In Return to Monkey Island.
