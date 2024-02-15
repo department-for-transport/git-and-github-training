@@ -4,10 +4,8 @@ This is a random text file. You can add and remove things to it to test how git 
 This is some text.
 This is some other text.
 
-<<<<<<< HEAD
 Bella says it's cloudy today
 
 I am committing without pulling
-=======
+
 Bella says it's cloudy today and Jamie agrees
->>>>>>> 42b1ecd3592f344a3e4a7f2f07df6d07e6999c79
