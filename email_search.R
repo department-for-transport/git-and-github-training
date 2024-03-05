@@ -8,7 +8,7 @@ save_attachments <- function(search_string, file_type, folder){
   
   ##Search in CM Analytics inbox for email subjects containing given string
   search <- outlook_app$AdvancedSearch(
-    "'\\CM Analytics\\Inbox\\000 COVID-19\\transport modes'",
+    "'\\CM Analytics\\Inbox\\000 COVID-19\\transport modes\\new'",
     paste0("urn:schemas:httpmail:subject LIKE '%", search_string, "%'")
   )
   
