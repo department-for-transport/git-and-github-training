@@ -5,6 +5,3 @@ This is some text.
 I am just normally editing a text file here.
 
 My name is Anna 
-
-Is this a further change? 
-
