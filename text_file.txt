@@ -5,3 +5,5 @@ This is some text.
 I am just normally editing a text file here.
 
 Maggie
+
+adding more to Maggie's file
