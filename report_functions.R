@@ -17,6 +17,8 @@ date_formatter <- function(dates, abbr_day = TRUE, abbr_month = TRUE, include_ye
 }
 
 ##Function to find a value that is neither the max nor the min
+
+
 mid <- function(data){
   #Keep only unique values
   data <- unique(data)
