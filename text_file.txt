@@ -7,3 +7,5 @@ I am just normally editing a text file here.
 Hello,my name is Jack! Just testing how to edit.
 
 Making a second edit!
+
+Third times the charm! Will add a shorter commit message this time.
