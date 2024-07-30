@@ -3,3 +3,11 @@ This is a random text file. You can add and remove things to it to test how git 
 
 This is some text.
 I am just normally editing a text file here.
+
+Hello,my name is Jack! Just testing how to edit.
+
+Making a second edit!
+
+Third times the charm! Will add a shorter commit message this time.
+
+Laura making a change
