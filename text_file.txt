@@ -1,5 +1,3 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
-
-This is some text.
-I am just normally editing a text file here.
+Here is my text file which I am editing on the training session this morning.
