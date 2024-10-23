@@ -1,5 +1,8 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
+This is some other text
+Let's see the changes that come from this
+We love Git
 
 This is some text.
 I am just normally editing a text file here.
