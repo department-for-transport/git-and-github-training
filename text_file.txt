@@ -1,5 +1,6 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
+Emily has made changes to this file.
 
 This is some text.
 I am just normally editing a text file here.
