@@ -1,3 +1,4 @@
+
 library(RDCOMClient)
 
 ##Set up Outlook application
