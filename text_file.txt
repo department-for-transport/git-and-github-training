@@ -1,7 +1,7 @@
 This is a random text file. You can add and remove things to it to test how git works.
 
 
-This is some text.
+This is some text. Isaac has also added some text 
 
 
 I made a change.
