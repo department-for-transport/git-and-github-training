@@ -1,7 +1,7 @@
+This line was changed
+
 This is a random text file. You can add and remove things to it to test how git works.
 
 
 This is some text.
 I am just normally editing a text file here.
-
-2.3.4.2 Task - make a change to the text file - this is my change :)
