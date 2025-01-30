@@ -59,7 +59,7 @@ save_attachments <- function(search_string, file_type, folder){
     }
   }
 }
-##Save BTP attachments
+##Save British Transport Police attachments
 save_attachments(search_string = "BTP", 
                  file_type = "docx", 
                  folder = "G:/AFP/IHACAll/IHAC/015 DDU/005 Covid reporting/0001 R Projects/transport_modes_table/Data/Face coverings/BTP")
@@ -74,7 +74,7 @@ save_attachments(search_string = "Absence Dashboard",
                  file_type = "pptx", 
                  folder = "G:/AFP/IHACAll/IHAC/015 DDU/005 Covid reporting/0001 R Projects/transport_modes_table/Data/Staff absence")
 
-##Save TfL Face Covering File
+##Save Transport for London Face Covering File
 save_attachments(search_string = "TfL COVID-19 update report", 
                  file_type = "docx", 
                  folder = "G:/AFP/IHACAll/IHAC/015 DDU/005 Covid reporting/0001 R Projects/transport_modes_table/Data/Face coverings/TfL")
