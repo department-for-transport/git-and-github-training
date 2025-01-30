@@ -4,3 +4,5 @@ This is a change made by Manny
 
 This is some text.
 I am just normally editing a text file here.
+
+Hello, Manny, I am destroying your text file.  Aran woz 'ere.
