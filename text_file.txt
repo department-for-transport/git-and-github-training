@@ -4,3 +4,5 @@ This stage has been changed
 
 This is some text.
 I am just normally editing a text file here.
+
+I'm adding an extra line here that you didn't have before. 
