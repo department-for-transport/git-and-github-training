@@ -1,5 +1,6 @@
 # Git and GitHub Training Repository
 
+I am making another change by Manny
 This is a GitHub repository designed for beginner training in Git and GitHub for colleagues in DfT.
 
 ## To use 
